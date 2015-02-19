@@ -11,7 +11,7 @@ DESCRIPTION = u"Programming snippets, Python code, Random thoughts."
 FAVICON = 'favicon.ico'
 FAVICON_TYPE = 'image/vnd.microsoft.icon'
 
-META_IMAGE = SITEURL + "/content/img/og_logo.png"
+META_IMAGE = SITEURL + "/img/og_logo.png"
 META_IMAGE_TYPE = "image/png"
 
 PATH = 'content'
@@ -50,7 +50,7 @@ SOCIAL = (('twitter', 'https://twitter.com/sandcoder'),
 DEFAULT_PAGINATION = 5
 
 # Set to True if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 FOOTER = ("&copy; Sandeep Jadoonanan.<br>" +
            "<em style=\"color: #999;\">Technology is as dangerous as it is beautiful.</em>")
@@ -61,5 +61,6 @@ TAG_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
 DIRECT_TEMPLATES = ('index', 'categories', 'archives', 'search', 'tipue_search')
 TIPUE_SEARCH_SAVE_AS = 'tipue_search.json'
+TWITTER_USERNAME = "sandcoder"
 #DISQUS_SITENAME = "smallcodeblog"
 
