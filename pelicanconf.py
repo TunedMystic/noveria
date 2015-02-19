@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Sandeep Jadoonanan'
 SITENAME = u'Smallcode Blog'
 ALT_NAME = u"> .logs"
-SITEURL = ''
+SITEURL = 'http://blog.smallcode.me'
 SITESUBTITLE = u"The web is awesome."
 DESCRIPTION = u"Programming snippets, Python code, Random thoughts."
 
@@ -41,7 +41,7 @@ SOCIAL = (('twitter', 'https://twitter.com/sandcoder'),
 DEFAULT_PAGINATION = 5
 
 # Set to True if you want document-relative URLs when developing
-RELATIVE_URLS = False
+RELATIVE_URLS = True
 
 FOOTER = ("&copy; Sandeep Jadoonanan.<br>" +
            "<em style=\"color: #999;\">Technology is as dangerous as it is beautiful.</em>")

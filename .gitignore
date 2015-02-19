@@ -68,3 +68,5 @@ cache/
 .sass-cache/
 pip-selfcheck.json
 
+# Environment file
+.env
