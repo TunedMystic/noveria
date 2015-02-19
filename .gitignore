@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.py~
 
 # C extensions
 *.so
@@ -52,3 +53,20 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Virtual Environment
+bin/
+include/
+lib/
+
+# Theme
+themes/
+
+# Blog
+output/
+cache/
+
+# Misc
+.sass-cache/
+pip-selfcheck.json
+
