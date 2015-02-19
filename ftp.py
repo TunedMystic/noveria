@@ -24,8 +24,11 @@ if __name__ == "__main__":
   
   with pysftp.Connection(host, username = user, password = pswd) as sftp:
     with sftp.cd(source_dir):
-      try:
-        sftp.mkdir(output_dir)
-      except:
-        pass
+      #try:
+        #if sftp.exists(output_dir):
+        #  print "{0} exists!".format(output_dir)
+        #  sftp.rmdir(output_dir)
+        #sftp.mkdir(output_dir)
+      #except:
+      #  pass
       sftp.put_r(localpath = os.path.join(dirname, "output"), remotepath = output_dir)

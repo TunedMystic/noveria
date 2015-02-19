@@ -8,9 +8,18 @@ ALT_NAME = u"> .logs"
 SITEURL = 'http://blog.smallcode.me'
 SITESUBTITLE = u"The web is awesome."
 DESCRIPTION = u"Programming snippets, Python code, Random thoughts."
+FAVICON = 'favicon.ico'
+FAVICON_TYPE = 'image/vnd.microsoft.icon'
+
+META_IMAGE = SITEURL + "/content/img/og_logo.png"
+META_IMAGE_TYPE = "image/png"
 
 PATH = 'content'
-STATIC_PATHS = ["img", "pdf", "pages", "feeds"]
+STATIC_PATHS = ["img", "pdf", "pages", "feeds", "extra"]
+EXTRA_PATH_METADATA = {
+  'extra/robots.txt': {'path': 'robots.txt'},
+  'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 
 TIMEZONE = 'America/New_York'
 

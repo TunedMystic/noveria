@@ -65,6 +65,7 @@ output/
 cache/
 
 # Misc
+misc/
 .sass-cache/
 pip-selfcheck.json
 
