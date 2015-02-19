@@ -59,9 +59,6 @@ bin/
 include/
 lib/
 
-# Theme
-themes/
-
 # Blog
 output/
 cache/
