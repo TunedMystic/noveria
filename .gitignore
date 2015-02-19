@@ -60,6 +60,7 @@ include/
 lib/
 
 # Blog
+*.md~
 output/
 cache/
 
