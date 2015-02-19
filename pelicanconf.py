@@ -19,16 +19,16 @@ DEFAULT_LANG = u'en'
 THEME = "themes/mg"
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Linkedin', 'http://linkedin.com/in/sandeepjadoonanan'),
+LINKS = (('Django', 'https://www.djangoproject.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
+         ('Ambient Music', 'https://www.youtube.com/user/cryochamberlabel'),)
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/sandcoder'),
@@ -44,7 +44,7 @@ DEFAULT_PAGINATION = 5
 RELATIVE_URLS = False
 
 FOOTER = ("&copy; Sandeep Jadoonanan.<br>" +
-           "<em style=\"color: #999;\">Technology is beautiful and dangerous.</em>")
+           "<em style=\"color: #999;\">Technology is as dangerous as it is beautiful.</em>")
               
 # mg specific settings.
 SHARE = True
@@ -53,5 +53,4 @@ AUTHOR_SAVE_AS = ''
 DIRECT_TEMPLATES = ('index', 'categories', 'archives', 'search', 'tipue_search')
 TIPUE_SEARCH_SAVE_AS = 'tipue_search.json'
 #DISQUS_SITENAME = "smallcodeblog"
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
 
