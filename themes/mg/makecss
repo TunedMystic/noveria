@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+import os
+
+if __name__ == "__main__":
+  dirname = os.path.abspath(os.path.dirname(__file__))
+  print "dirname", dirname
+  print "Converting SCSS files..."
+  os.system("sass {0}/scss/main.scss {0}/static/css/main.css".format(dirname))
+  os.system("sass {0}/scss/tipuesearch.scss {0}/static/css/tipuesearch.css".format(dirname))
+
